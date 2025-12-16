@@ -29,71 +29,74 @@
       });
     </script>
 
-    
     <!-- Responsive Enhancements -->
     <style>
       /* Contact section basic spacing */
-#contact {
-  padding: 3rem 1rem;
-  text-align: center;
-}
+      #contact {
+        padding: 3rem 1rem;
+        text-align: center;
+      }
 
-#contact h2 {
-  margin-bottom: 2rem;
-}
-@media (max-width: 600px) {
-  #contact .contact-container {
-    gap: 0.7rem;
-  }
-}
-/* Container: responsive cards */
-#contact .contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
+      #contact h2 {
+        margin-bottom: 2rem;
+      }
+      @media (max-width: 600px) {
+        #contact .contact-container {
+          gap: 0.7rem;
+        }
+      }
+      /* Container: responsive cards */
+      #contact .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
-/* Har contact item = small card */
-#contact .contact-item {
-  flex: 1 1 260px;           /* responsive width */
-  max-width: 320px;
-  padding: 1rem 1.2rem;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.03); /* light glass effect, change if needed */
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  margin: 0 auto;
-}
+      /* Har contact item = small card */
+      #contact .contact-item {
+        flex: 1 1 260px; /* responsive width */
+        max-width: 320px;
+        padding: 1rem 1.2rem;
+        border-radius: 10px;
+        background: rgba(
+          255,
+          255,
+          255,
+          0.03
+        ); /* light glass effect, change if needed */
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        margin: 0 auto;
+      }
 
-/* Icon styling */
-#contact .contact-item i {
-  font-size: 1.4rem;
-  min-width: 24px;
-}
+      /* Icon styling */
+      #contact .contact-item i {
+        font-size: 1.4rem;
+        min-width: 24px;
+      }
 
-/* Text / links */
-#contact .contact-item a,
-#contact .contact-item p {
-  margin: 0;
-  font-size: 0.95rem;
-  text-align: left;
-  word-break: break-word;
-}
+      /* Text / links */
+      #contact .contact-item a,
+      #contact .contact-item p {
+        margin: 0;
+        font-size: 0.95rem;
+        text-align: left;
+        word-break: break-word;
+      }
 
-#contact .contact-item a {
-  text-decoration: none;
-  /* color: inherit;  // ya apni theme color */
-}
+      #contact .contact-item a {
+        text-decoration: none;
+        /* color: inherit;  // ya apni theme color */
+      }
 
-/* Mobile tweaks */
-@media (max-width: 600px) {
-  #contact .contact-item {
-    justify-content: flex-start;
-  }
-}
+      /* Mobile tweaks */
+      @media (max-width: 600px) {
+        #contact .contact-item {
+          justify-content: flex-start;
+        }
+      }
 
       @media (max-width: 768px) {
         .hero-section {
@@ -173,29 +176,35 @@
       <div class="hero-container">
         <!-- Left: Text -->
         <div class="hero-text" data-aos="fade-right">
-          <h1>Hello, I am <span>Shubhi Vishwakarma</span></h1>
-          <p>Computer Science Engineer | Web Developer | Java Developer</p>
+          <h1>Hello, I am <span>Sumit Raj</span></h1>
+          <p>
+            Computer Science Engineer | Python Developer | Cyber Security
+            Analyst
+          </p>
 
           <div class="buttons">
             <a href="#about" class="cta">Explore Portfolio</a>
-            <a href="./Shubhi_Resume (2).pdf" download class="cta resume-btn"
+            <a
+              href="./Sumit Raj Resume infosys.pdf"
+              download
+              class="cta resume-btn"
               >Download Resume</a
             >
-            <a href="./Shubhi_Resume (2).pdf" target="_blank" class="cta"
+            <a href="./Sumit Raj Resume infosys.pdf" target="_blank" class="cta"
               >View Resume</a
             >
           </div>
 
           <div class="social-icons">
-            <a href="https://github.com/shubhii19" target="_blank"
+            <a href="https://github.com/sumitraj8930" target="_blank"
               ><i class="fab fa-github"></i
             ></a>
             <a
-              href="https://www.linkedin.com/in/shubhi-vishwakarma-8b9603254/"
+              href="https://www.linkedin.com/in/sumit-raj-ss8930/"
               target="_blank"
               ><i class="fab fa-linkedin"></i
             ></a>
-            <a href="mailto:viswakarmashubhi80@gmail.com" target="_blank"
+            <a href="mailto:sumitraj0157@gmail.com" target="_blank"
               ><i class="fas fa-envelope"></i
             ></a>
           </div>
@@ -203,7 +212,7 @@
 
         <!-- Right: Image -->
         <div class="hero-photo">
-          <img src="./Shubhi_Picture.jpg" alt="Profile photo" />
+          <img src="./sumit-photo.jpeg" alt="Profile photo" />
         </div>
       </div>
     </section>
@@ -212,15 +221,19 @@
     <section id="about" data-aos="fade-up">
       <h2 id="about" data-aos="zoom-in">About Me</h2>
       <p data-aos="fade-up" data-aos-delay="200">
-        I’m Shubhi Vishwakarma, a B.Tech Computer Science student at Lakshmi
-        Narain College of Technology & Science, passionate about building
-        impactful digital products using the MERN stack. I enjoy transforming
-        ideas into scalable web applications with clean code, intuitive UI, and
-        real-world usability. I have hands-on experience in React.js, Node.js,
-        Express.js, MongoDB, Tailwind CSS, JavaScript, and Java, backed by core
-        CS fundamentals including OOP, DBMS, Operating Systems, and Data
-        Structures & Algorithms. I love building full-stack solutions end-to-end
-        — from backend APIs to responsive, polished interfaces.
+        I’m Sumit Raj, a B.Tech Computer Science student at Lakshmi Narain
+        College of Technology & Science, with a strong interest in Cyber
+        Security, Machine Learning, and Python development. I enjoy working on
+        real-world security challenges and building intelligent, data-driven
+        solutions with practical impact. I have hands-on experience in network
+        traffic analysis, vulnerability assessment, and web application security
+        testing, using tools such as Wireshark, Burp Suite, Nmap, Metasploit,
+        and Nikto. Alongside security, I work with Python, Machine Learning
+        libraries, AWS cloud services, and databases, supported by strong
+        fundamentals in Object-Oriented Programming and core computer science
+        concepts. I enjoy building end-to-end solutions — from security analysis
+        and backend logic to automation, deployment, and performance
+        optimization.
       </p>
     </section>
 
@@ -231,213 +244,196 @@
       <div class="education-item" data-aos="fade-up" data-aos-delay="100">
         <h3>B.Tech in Computer Science Engineering</h3>
         <p>Lakshmi Narain College of Technology & Science, Bhopal</p>
-        <p>2022 – 2026 | CGPA: 7.2</p>
+        <p>2022 – 2026 | CGPA: 7.25</p>
       </div>
 
       <div class="education-item" data-aos="fade-up" data-aos-delay="200">
         <h3>Class XII – CBSE Board</h3>
-        <p>Kendriya Vidyalaya, Hoshangabad</p>
-        <p>2021 – 2022 | 72%</p>
+        <p>Saraswati Vidya Mandir, Bokaro, Jharkhand</p>
+        <p>2021 – 2022 | 74.6%</p>
       </div>
 
       <div class="education-item" data-aos="fade-up" data-aos-delay="300">
         <h3>Class X – CBSE Board</h3>
-        <p>Kendriya Vidyalaya, Hoshangabad</p>
-        <p>2019 – 2020 | 71%</p>
+        <p>Saraswati Vidya Mandir, Bokaro, Jharkhand</p>
+        <p>2019 – 2020 | 74.2%</p>
       </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" data-aos="fade-up">
       <h2>My Skills</h2>
+
       <div class="skills-boxes">
+        <!-- Python -->
         <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            alt="Python"
           />
-          <h3>React.js</h3>
-          <p>Building responsive and high-performance UIs.</p>
+          <h3>Python</h3>
+          <p>Scripting, automation, and data-driven application development.</p>
         </div>
 
+        <!-- Machine Learning -->
         <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-            alt="Node.js"
+            src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+            alt="Machine Learning"
           />
-          <h3>Node.js & Express.js</h3>
-          <p>Backend APIs and scalable full-stack development.</p>
+          <h3>Machine Learning</h3>
+          <p>Supervised & Unsupervised learning using real-world datasets.</p>
         </div>
 
+        <!-- Data Science Libraries -->
         <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-            alt="MongoDB"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+            alt="NumPy"
           />
-          <h3>MongoDB</h3>
-          <p>Efficient NoSQL database handling and schema design.</p>
+          <h3>NumPy • Pandas • Matplotlib</h3>
+          <p>Data analysis, visualization, and preprocessing.</p>
         </div>
 
+        <!-- Cyber Security -->
         <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-            alt="Tailwind CSS"
+            src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png"
+            alt="Cyber Security"
           />
-          <h3>Tailwind CSS</h3>
-          <p>Modern styling for component-based UI.</p>
+          <h3>Cyber Security</h3>
+          <p>Vulnerability assessment and network security analysis.</p>
         </div>
 
+        <!-- Security Tools -->
         <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-            alt="Java"
+            src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png"
+            alt="Security Tools"
           />
-          <h3>Java</h3>
-          <p>Strong foundation in OOP and backend logic.</p>
+          <h3>Security Tools</h3>
+          <p>Wireshark, Burp Suite, Nmap, Metasploit, Nikto.</p>
         </div>
 
+        <!-- AWS -->
         <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            alt="Git"
-          />
-          <h3>Git & GitHub</h3>
-          <p>Version control and collaborative development.</p>
-        </div>
-
-        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
             alt="AWS"
           />
           <h3>AWS</h3>
-          <p>Cloud deployment and basic configurations.</p>
+          <p>EC2, S3, Lambda, IAM, CloudWatch basics.</p>
         </div>
 
-        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+        <!-- Database -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="700">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-            alt="SQL"
+            alt="MySQL"
           />
-          <h3>SQL</h3>
-          <p>Efficient database management and queries.</p>
+          <h3>MySQL</h3>
+          <p>Relational database design and efficient queries.</p>
+        </div>
+
+        <!-- Dev Tools -->
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="800">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            alt="Git"
+          />
+          <h3>Git & Dev Tools</h3>
+          <p>GitHub, Docker, Ngrok, VirtualBox, VMware.</p>
         </div>
       </div>
-
-      <!-- <div class="skills-boxes">
-
-    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-      <h3>Python</h3>
-      <p>Proficient in scripting and automation.</p>
-      
-    </div>
-
-    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-      <h3>HTML/CSS/JavaScript/React.js</h3>
-      <p>Frontend development for modern web apps.</p>
-      
-    </div>
-
-    <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
-      <img src="https://cdn-icons-png.flaticon.com/512/2933/2933245.png" alt="IoT" style="width:40px">
-      <h3>IoT (ESP32, Firebase)</h3>
-      <p>Built real-time connected systems.</p>
-      
-    </div>
-
-    <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
-      <h3>SQL</h3>
-      <p>Efficient database management and queries.</p>
-      
-    </div>
-
-    <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
-      <img src="aws.png" alt="AWS logo">
-      <h3>AWS</h3>
-      <p>Cloud deployment and basic configurations.</p>
-      
-    </div>
-
-    <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-      <h3>Git & GitHub</h3>
-      <p>Version control and collaboration.</p>
-      
-    </div>
-
-    
-
-    
-
-  </div> -->
     </section>
 
     <!-- Experience Section -->
-    <!-- <section id="experience" data-aos="fade-up">
+    <section id="experience" data-aos="fade-up">
       <h2>Experience</h2>
 
       <div class="experience-item" data-aos="fade-right" data-aos-delay="200">
-        <h3>Web Development Intern – IIT Roorkee</h3>
-        <p class="date">March 2024 – June 2024</p>
+        <h3>Cyber Security Analyst Intern – Securium Solutions Pvt. Ltd.</h3>
+        <p class="date">Nov 2024 – Jan 2025</p>
         <p>
-          Contributed to the development of a web-enabled experiment as part of
-          the Virtual Labs initiative in the Electronics Measurement and
-          Instrumentation domain. Worked on frontend technologies like HTML,
-          CSS, and JavaScript to build interactive and responsive user
-          interfaces. Gained practical exposure to real-world virtual lab
-          integration under the guidance of IIT Roorkee faculty.
-        </p>
-      </div>
-    </section> -->
-
-    <!-- Projects Section -->
-    <section id="projects">
-      <h2 data-aos="fade-up">Projects</h2>
-
-      <div class="project-box" data-aos="fade-up" data-aos-delay="200">
-        <h3>📘 KhataBook – Digital Ledger Web App</h3>
-        <p>
-          A full-stack web application that allows users to securely record and
-          manage their daily financial transactions. Implemented persistent
-          storage, user authentication and real-time validation to make digital
-          bookkeeping efficient and intuitive.
+          Worked on real-world cyber security tasks involving network traffic
+          monitoring, vulnerability assessment, and web application security
+          testing. Used tools like Wireshark to analyze network packets and
+          identify anomalies, and Burp Suite to detect vulnerabilities such as
+          SQL Injection and Cross-Site Scripting (XSS).
         </p>
         <p>
-          <strong>Technologies:</strong> Express.js, Node.js, MongoDB,
-          JavaScript, HTML, CSS, Tailwind CSS
-        </p>
-      </div>
-
-      <div class="project-box" data-aos="fade-up" data-aos-delay="300">
-        <h3>🩺 Prescripto – Appointment Booking Web App</h3>
-        <p>
-          A doctor–patient appointment platform built to streamline bookings and
-          manage clinical schedules digitally. Integrated secure authentication,
-          RESTful APIs and responsive UI for seamless and fast user experience.
-        </p>
-        <p>
-          <strong>Technologies:</strong> React.js, Node.js, Express.js, MongoDB,
-          JavaScript, HTML, CSS, Tailwind CSS
-        </p>
-      </div>
-
-      <div class="project-box" data-aos="fade-up" data-aos-delay="400">
-        <h3>💼 Career Connect – Job Portal Web Application</h3>
-        <p>
-          A full-stack platform that connects job seekers and recruiters,
-          enabling job listings, user profiles, role-based authentication, and
-          application tracking. Designed a user-friendly interface and secure
-          backend system for efficient job search and hiring.
-        </p>
-        <p>
-          <strong>Technologies:</strong> React.js, Node.js, Express.js, MongoDB,
-          JavaScript, HTML, CSS, Tailwind CSS
+          Conducted vulnerability scans using Nikto to identify outdated
+          software and security misconfigurations. Assisted in preparing
+          detailed security reports and recommending remediation measures, while
+          also contributing to research-based lab content aligned with academic
+          and industry standards.
         </p>
       </div>
     </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+  <h2 data-aos="fade-up">Projects</h2>
+
+  <!-- FRIDAY AI Assistant -->
+  <div class="project-box" data-aos="fade-up" data-aos-delay="200">
+    <h3>🤖 FRIDAY – Desktop AI Assistant</h3>
+    <p>
+      Built a personal desktop AI assistant using Python that performs task
+      automation through voice commands. The system handles speech recognition,
+      natural language processing, and executes actions like opening
+      applications, web searches, and fetching real-time information.
+    </p>
+    <p>
+      Designed a modular architecture for easy feature expansion and
+      containerized the complete application using Docker for seamless
+      deployment across systems.
+    </p>
+    <p>
+      <strong>Technologies:</strong> Python, NLP, Speech Recognition, Task
+      Automation, Docker
+    </p>
+  </div>
+
+  <!-- Twitter Sentiment Analysis -->
+  <div class="project-box" data-aos="fade-up" data-aos-delay="300">
+    <h3>📊 Twitter Sentiment Analysis</h3>
+    <p>
+      Implemented a machine learning-based sentiment analysis system on a
+      dataset of 1.6 million tweets to classify sentiments as positive,
+      negative, or neutral. Performed extensive text preprocessing and feature
+      extraction to improve model performance.
+    </p>
+    <p>
+      Trained and evaluated a Logistic Regression model and visualized sentiment
+      trends for better interpretability and insights.
+    </p>
+    <p>
+      <strong>Technologies:</strong> Python, Pandas, NumPy, Scikit-learn,
+      TF-IDF, Matplotlib
+    </p>
+  </div>
+
+  <!-- Cyber Security Project -->
+  <div class="project-box" data-aos="fade-up" data-aos-delay="400">
+    <h3>🔐 Web Application Security Assessment</h3>
+    <p>
+      Conducted security testing on web applications to identify common
+      vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS).
+      Analyzed HTTP requests and responses to understand application behavior
+      and attack vectors.
+    </p>
+    <p>
+      Performed vulnerability scanning and security analysis, and documented
+      findings with remediation recommendations following industry practices.
+    </p>
+    <p>
+      <strong>Technologies:</strong> Burp Suite, Wireshark, Nmap, Nikto,
+      Metasploit
+    </p>
+  </div>
+</section>
+
 
     <!-- Contact Section -->
     <section id="contact" data-aos="fade-up">
@@ -445,8 +441,8 @@
       <div class="contact-container">
         <div class="contact-item">
           <i class="fas fa-envelope"></i>
-          <a href="mailto:vishwakarmashubhi80@gmail.com" target="_blank"
-            >vishwakarmashubhi80@gmail.com</a
+          <a href="mailto:sumitraj0157@gmail.com" target="_blank"
+            >sumitraj0157@gmail.com</a
           >
         </div>
 
@@ -457,7 +453,7 @@
         <div class="contact-item">
           <i class="fab fa-linkedin"></i>
           <a
-            href="https://www.linkedin.com/in/shubhi-vishwakarma-8b9603254/"
+            href="https://www.linkedin.com/in/sumit-raj-ss8930/"
             target="_blank"
             >LinkedIn Profile</a
           >
@@ -470,7 +466,7 @@
 
     <!-- Footer -->
     <footer>
-      &copy; 2025 Shubhi Vishwakarma | Thank you for your time and interest.
+      &copy; 2025 Sumit Raj | Thank you for your time and interest.
     </footer>
 
     <!-- JavaScript -->
